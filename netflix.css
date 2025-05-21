@@ -1,0 +1,62 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: black; 
+}
+
+.bg-img {
+    position: absolute;
+    width: 1400px;
+    height: 600px;
+    opacity: 0.4;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    padding: 40px;
+    border-radius: 10px;
+    width: 300px;
+    color: white;
+}
+
+.sign_in input[type="text"],
+.sign_in input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #333;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+.sign_in button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sign_in h2 {
+    margin-bottom: 20px;
+}
+
+.sign_in h3 {
+    margin: 10px ;
+    text-align: center;
+}
+
+.sign_in label {
+    font-size: 14px;
+    margin-top: 10px;
+}
